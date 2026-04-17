@@ -3,11 +3,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.jala.university</groupId>
-  <artifactId>credit-card-module</artifactId>
+  <groupId>Arthurczo</groupId>
+  <artifactId>credit-card-project</artifactId>
   <version>1.0-RELEASE</version>
 
-  <name>credit-card-module</name>
+  <name>credit-card-project</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,7 +26,7 @@
   <dependencies>
     <!-- Local Dependency   -->
     <dependency>
-      <groupId>org.jala.university</groupId>
+      <groupId>Arthurczo</groupId>
       <artifactId>commons-module</artifactId>
       <version>${commons.module.version}</version>
     </dependency>
@@ -118,14 +118,6 @@
       <scope>compile</scope>
     </dependency>
   </dependencies>
-
-  <!-- Should be included when add dependecy to other gitlab project
-    <repositories>
-      <repository>
-        <id>base-module-repo</id>
-        <url>https://gitlab.com/api/v4/projects/{project_code}/packages/maven</url>
-      </repository>
-    </repositories> -->
   <build>
     <plugins>
       <plugin>
