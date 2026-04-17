@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="15" styleClass="content-root">
+    <Label text="Mais opções para você" styleClass="title-label"/>
+    <Button text="Cartões Virtuais" styleClass="main-button"/>
+    <Button text="Programas de Benefícios" styleClass="main-button"/>
+</VBox>

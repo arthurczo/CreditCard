@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.jala.university.presentation.controller.AdditionalCardFormController"
+      spacing="15"
+      alignment="CENTER"
+      styleClass="content-root"
+      maxWidth="600">
+
+    <Label text="Solicitação de Cartão Adicional" styleClass="title-label"/>
+
+    <TextField fx:id="nameField" promptText="Nome completo" styleClass="input-field"/>
+    <TextField fx:id="cpfField" promptText="CPF" styleClass="input-field"/>
+    <DatePicker fx:id="birthDatePicker" maxWidth="Infinity" promptText="Data de nascimento"/>
+
+    <Button text="Enviar Solicitação" styleClass="main-button" maxWidth="Infinity" onAction="#handleSubmit"/>
+</VBox>

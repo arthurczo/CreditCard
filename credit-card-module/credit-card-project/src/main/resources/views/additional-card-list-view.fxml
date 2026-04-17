@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.jala.university.presentation.controller.AdditionalCardListController"
+      spacing="15"
+      alignment="CENTER"
+      styleClass="content-root">
+
+    <Label text="Cartões Adicionais" styleClass="title-label"/>
+    <Label fx:id="countLabel" text="Total: 0" styleClass="info-label"/>
+
+    <ListView fx:id="cardListView" prefHeight="200" prefWidth="300" styleClass="list-view"/>
+    <Button text="Novo cartão adicional" maxWidth="Infinity" styleClass="main-button" onAction="#handleNewAdditionalCardButton"/>
+</VBox>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.shape.Rectangle?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.jala.university.presentation.controller.HomeViewController"
+      alignment="CENTER"
+      spacing="20"
+      styleClass="content-root">
+
+    <Label text="Seu Cartão de Crédito" styleClass="title-label"/>
+
+    <!-- Cartão de Crédito -->
+    <StackPane fx:id="cardContainer" styleClass="card-container">
+        <Rectangle width="340" height="200" arcWidth="20" arcHeight="20" styleClass="credit-card-bg"/>
+
+        <VBox spacing="15" alignment="CENTER_LEFT" maxWidth="320">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+
+            <HBox alignment="CENTER_LEFT" spacing="10">
+                <FontIcon iconLiteral="fas-credit-card" iconSize="24" styleClass="card-icon"/>
+                <Label text="Platinum" styleClass="card-type-label"/>
+                <Region HBox.hgrow="ALWAYS" />
+                <FontIcon iconLiteral="fab-cc-visa" iconSize="32" styleClass="card-brand-icon"/>
+            </HBox>
+
+            <Label fx:id="cardNumberLabel" styleClass="card-number-label"/>
+
+            <HBox spacing="40" alignment="CENTER_LEFT">
+                <VBox spacing="5">
+                    <Label text="TITULAR" styleClass="card-label-small"/>
+                    <Label fx:id="cardHolderLabel" styleClass="card-info-label"/>
+                </VBox>
+
+<!--                <VBox spacing="5">-->
+<!--                    <Label text="VALIDADE" styleClass="card-label-small"/>-->
+<!--                    <Label fx:id="cardExpiryLabel" styleClass="card-info-label"/>-->
+<!--                </VBox>-->
+
+                <VBox spacing="5">
+                    <Label text="CVV" styleClass="card-label-small"/>
+                    <Label fx:id="cardCvvLabel"  styleClass="card-info-label"/>
+                </VBox>
+            </HBox>
+        </VBox>
+    </StackPane>
+
+    <!-- Informações do Cartão -->
+    <GridPane fx:id="cardDetails" hgap="20" vgap="10" alignment="CENTER">
+        <padding>
+            <Insets top="20" right="20" bottom="20" left="20"/>
+        </padding>
+
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="100" prefWidth="150" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="100" prefWidth="150" />
+        </columnConstraints>
+
+        <Label text="Limite Total:" styleClass="info-label" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <Label fx:id="limitTotalLabel" text="R$ 10.000,00" styleClass="value-label" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+        <Label text="Limite Disponível:" styleClass="info-label" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <Label fx:id="limitAvailableLabel" text="R$ 7.500,00" styleClass="value-label" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+        <Label text="Status:" styleClass="info-label" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+        <HBox alignment="CENTER_LEFT" spacing="5" GridPane.rowIndex="4" GridPane.columnIndex="1">
+            <FontIcon fx:id="statusIcon" iconLiteral="fas-check-circle" iconSize="16" styleClass="status-active-icon"/>
+            <Label fx:id="statusLabel" text="Ativo" styleClass="status-active-label"/>
+        </HBox>
+    </GridPane>
+
+    <Label fx:id="messageLabel" styleClass="message-label">Você ainda não tem um cartão de crédito</Label>
+
+</VBox>

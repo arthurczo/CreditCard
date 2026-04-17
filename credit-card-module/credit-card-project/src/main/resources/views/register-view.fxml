@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.jala.university.presentation.controller.RegisterController"
+      spacing="15"
+      alignment="CENTER"
+      styleClass="content-root">
+
+    <Label text="Cadastro de Usuário" styleClass="title-label"/>
+
+    <TextField fx:id="nameField" promptText="Nome completo" styleClass="input-field"/>
+    <TextField fx:id="emailField" promptText="Email" styleClass="input-field"/>
+    <PasswordField fx:id="passwordField" promptText="Senha" styleClass="input-field"/>
+
+    <Button text="Cadastrar" styleClass="main-button" onAction="#handleRegister"/>
+    <Hyperlink text="Já tenho uma conta" onAction="#goToLogin" styleClass="login-link"/>
+
+</VBox>

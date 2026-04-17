@@ -1,0 +1,232 @@
+/* Fundo escuro com degradê */
+.root, .content-root, .border-pane {
+    -fx-background-color: linear-gradient(to bottom, #0d0d0d, #1a001a);
+}
+
+/* ====== Botões do menu lateral ====== */
+.sidebar-button, #logout-button {
+    -fx-background-color: linear-gradient(to right, #8e2de2, #ff6ec4);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-radius: 16px;
+    -fx-border-radius: 16px;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-padding: 10 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 8, 0, 0, 2);
+    -fx-alignment: center-left;
+    -fx-transition: 1s;
+}
+
+.sidebar-button .ikonli-font-icon, #logout-button .ikonli-font-icon {
+    -fx-icon-color: white;
+    -fx-fill: white;
+    -fx-icon-size: 16px;
+}
+
+.sidebar-button:hover, #logout-button:hover {
+    -fx-background-color: linear-gradient(to right, #a4508b, #5f0a87);
+    -fx-translate-x: 3;
+}
+
+/* Botões principais das telas internas */
+.main-button {
+    -fx-background-color: linear-gradient(to right, #8e2de2, #ff6ec4);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-background-radius: 14px;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-pref-width: 200px;
+}
+
+.main-button .ikonli-font-icon {
+    -fx-icon-color: white;
+    -fx-fill: white;
+}
+
+.main-button:hover {
+    -fx-background-color: linear-gradient(to right, #a4508b, #5f0a87);
+}
+
+/* Botão de bloquear cartão */
+.block-button {
+    -fx-background-color: linear-gradient(to right, #ff416c, #ff4b2b);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-radius: 14px;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 6, 0, 0, 2);
+}
+
+.block-button .ikonli-font-icon {
+    -fx-icon-color: white;
+    -fx-fill: white;
+}
+
+.block-button:hover {
+    -fx-background-color: linear-gradient(to right, #c31432, #240b36);
+}
+
+/* ====== Estilo para tela de login e cadastro ====== */
+.login-button {
+    -fx-background-color: linear-gradient(to right, #4facfe, #00f2fe);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-background-radius: 14px;
+    -fx-padding: 10 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 4, 0, 0, 1);
+    -fx-pref-width: 200px;
+}
+
+.login-button:hover {
+    -fx-background-color: linear-gradient(to right, #43e97b, #38f9d7);
+}
+
+.login-link {
+    -fx-text-fill: #ff6ec4;
+    -fx-font-size: 14px;
+    -fx-underline: true;
+}
+
+/* Exibição do cartão de crédito */
+.credit-card-bg {
+    -fx-fill: linear-gradient(to bottom right, #1a1a2e, #16213e, #0f3460);
+    -fx-stroke: #4facfe;
+    -fx-stroke-width: 2;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.7), 10, 0, 0, 5);
+}
+
+.card-container {
+    -fx-min-height: 200px;
+}
+
+.card-icon, .card-brand-icon {
+    -fx-icon-color: white;
+    -fx-fill: white;
+}
+
+
+.card-type-label {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.card-number-label {
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 2px;
+}
+
+.card-label-small {
+    -fx-text-fill: #cccccc;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+}
+
+.card-info-label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Estilos para informações do cartão */
+.info-label {
+    -fx-text-fill: #cccccc;
+    -fx-font-size: 16px;
+}
+
+.value-label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.status-active-icon {
+    -fx-icon-color: #4cd137;
+    -fx-fill: #4cd137;
+}
+
+.status-active-label {
+    -fx-text-fill: #4cd137;
+    -fx-font-weight: bold;
+}
+
+.status-blocked-icon {
+    -fx-icon-color: #e84118;
+    -fx-fill: #e84118;
+}
+
+.status-blocked-label {
+    -fx-text-fill: #e84118;
+    -fx-font-weight: bold;
+}
+
+.message-label {
+    -fx-text-fill: #e84118;
+}
+
+/* Estilo para formulários (cartão adicional, cadastro) */
+.form-section {
+    -fx-background-color: rgba(255, 255, 255, 0.03);
+    -fx-background-radius: 10px;
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-border-color: #8e2de2;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+}
+
+.form-label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Estilo para título e textos */
+.welcome-label, .title-label {
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+/* Campos de entrada */
+.input-field {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #aaaaaa;
+    -fx-background-radius: 10px;
+    -fx-border-color: #8e2de2;
+    -fx-border-radius: 10px;
+    -fx-padding: 10 14;
+    -fx-font-size: 14px;
+}
+
+/* Container de conteúdo */
+.content-root {
+    -fx-alignment: center;
+    -fx-spacing: 20;
+    -fx-padding: 40;
+}
+
+/* Sidebar */
+.sidebar {
+    -fx-background-color: #0d0d0d;
+    -fx-spacing: 15;
+    -fx-padding: 30 20;
+    -fx-alignment: center;
+}
+
+/* Pane principal */
+.border-pane {
+    -fx-padding: 0;
+}

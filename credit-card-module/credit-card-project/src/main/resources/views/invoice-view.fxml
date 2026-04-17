@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="15" styleClass="content-root">
+    <Label text="Sua Fatura Atual" styleClass="title-label"/>
+    <Label text="Valor: R$ 2.345,67" styleClass="info-label"/>
+    <Button text="Ver Detalhes" styleClass="main-button"/>
+</VBox>

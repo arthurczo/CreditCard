@@ -1,0 +1,71 @@
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.back-button {
+    -fx-padding: 8px;
+}
+
+/* CREDIT CARD */
+
+.credit-card {
+    -fx-background-color: #222222;
+    -fx-background-radius: 10;
+}
+
+.card-text {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+/* INVOICE INFO */
+
+.invoice-info {
+    -fx-border-color: #000000;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.invoice-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: normal;
+}
+
+.invoice-value {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* GRID BUTTONS */
+
+.action-button {
+    -fx-padding: 10;
+}
+
+.function-button {
+    -fx-padding: 8px;
+    -fx-alignment: center-left;
+    -fx-border-radius: 4;
+}
+
+.function-button .ikonli-font-icon {
+    -fx-icon-color: black;
+    -fx-icon-size: 16px;
+}
+
+.no-card-container {
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-min-height: 200px;
+}
+
+.no-card-message {
+    -fx-font-size: 18px;
+    -fx-text-fill: #555555;
+}
+
+.request-card-button {
+    -fx-padding: 10 20;
+    -fx-background-radius: 4;
+}

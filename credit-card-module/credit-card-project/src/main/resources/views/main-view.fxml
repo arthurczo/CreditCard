@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.jala.university.presentation.controller.MainViewController"
+            fx:id="rootPane"
+            prefWidth="800" prefHeight="600"
+            styleClass="border-pane">
+
+    <top>
+        <Label text="Bem-vindo!" styleClass="welcome-label" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets top="20" bottom="20"/>
+            </padding>
+        </Label>
+    </top>
+
+    <left>
+        <VBox spacing="10" styleClass="sidebar" BorderPane.alignment="CENTER_LEFT">
+            <Button text="Home" styleClass="sidebar-button" onAction="#handleHomeView" prefWidth="200">
+                <graphic>
+                    <FontIcon iconLiteral="fas-home" iconSize="16"/>
+                </graphic>
+            </Button>
+
+            <Button fx:id="cardRequestButton" text="Solicitar cartão" styleClass="sidebar-button" onAction="#handleCardRequest" prefWidth="200">
+                <graphic>
+                    <FontIcon iconLiteral="fas-money-check-alt" iconSize="16"/>
+                </graphic>
+            </Button>
+
+            <Button fx:id="invoiceButton" text="Ver Fatura" styleClass="sidebar-button" onAction="#handleInvoiceView" prefWidth="200">
+                <graphic>
+                    <FontIcon iconLiteral="fas-file-invoice-dollar" iconSize="16"/>
+                </graphic>
+            </Button>
+
+            <Button fx:id="historicButton" text="Ver Histórico" styleClass="sidebar-button" onAction="#handleHistoryView" prefWidth="200">
+                <graphic>
+                    <FontIcon iconLiteral="fas-history" iconSize="16"/>
+                </graphic>
+            </Button>
+
+            <Button fx:id="increaseLimitButton" text="Aumento de limite" styleClass="sidebar-button" onAction="#handleLimitIncresaseRequest" prefWidth="200">
+                <graphic>
+                    <FontIcon iconLiteral="fas-plus" iconSize="16"/>
+                </graphic>
+            </Button>
+
+            <Button fx:id="additionalCardButton" text="Cartões adicionais" styleClass="sidebar-button" onAction="#handleAdditionalCardList" prefWidth="200">
+                <graphic>
+                    <FontIcon iconLiteral="fas-money-check-alt" iconSize="16"/>
+                </graphic>
+            </Button>
+
+
+            <Button fx:id="notificationsButton" text="Notificações" styleClass="sidebar-button" onAction="#handleNotificationsView" prefWidth="200">
+                <graphic>
+                    <FontIcon iconLiteral="fas-bell" iconSize="16"/>
+                </graphic>
+            </Button>
+
+            <Button fx:id="scoreButton" text="Limite e Pontuação" styleClass="sidebar-button" onAction="#handleLimitView" prefWidth="200">
+                <graphic>
+                    <FontIcon iconLiteral="fas-chart-line" iconSize="16"/>
+                </graphic>
+            </Button>
+
+            <Button fx:id="blockButton" text="Bloquear Cartão" styleClass="sidebar-button" onAction="#handleBlockCardView" prefWidth="200">
+                <graphic>
+                    <FontIcon iconLiteral="fas-lock" iconSize="16"/>
+                </graphic>
+            </Button>
+
+            <Button fx:id="otherButton" text="Outras Funcionalidades" styleClass="sidebar-button" onAction="#handleOtherFeaturesView" prefWidth="200">
+                <graphic>
+                    <FontIcon iconLiteral="fas-cogs" iconSize="16"/>
+                </graphic>
+            </Button>
+
+            <Separator>
+                <padding>
+                    <Insets top="10" bottom="10"/>
+                </padding>
+            </Separator>
+
+            <Button text="Sair da Conta" styleClass="sidebar-button" onAction="#handleLogout" prefWidth="200">
+                <graphic>
+                    <FontIcon iconLiteral="fas-sign-out-alt" iconSize="16"/>
+                </graphic>
+            </Button>
+        </VBox>
+    </left>
+
+    <center>
+        <!-- Este StackPane será substituído pelo conteúdo central -->
+        <StackPane fx:id="contentPane"/>
+    </center>
+
+</BorderPane>

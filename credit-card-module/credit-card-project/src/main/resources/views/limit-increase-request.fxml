@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+
+<?import com.sun.javafx.scene.control.DoubleField?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="15" styleClass="content-root" fx:controller="org.jala.university.presentation.controller.LimitIncreaseViewController">
+    <Label text="Aumento de limite" styleClass="title-label"/>
+    <Label fx:id="currentLimitLabel" text="Limite atual:" styleClass="info-label"/>
+
+    <TextField fx:id="requestedLimitField" promptText="Valor de limite desejado" styleClass="input-field"/>
+    <TextField fx:id="monthlyIncomeField" promptText="Renda mensal" styleClass="input-field"/>
+    <TextField fx:id="timeAtCurrentJobField" promptText="Tempo no atual emprego (meses)" styleClass="input-field"/>
+    <Button text="Solicitar aumento" styleClass="main-button" maxWidth="Infinity" />
+</VBox>

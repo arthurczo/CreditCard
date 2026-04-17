@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+
+<?import com.sun.javafx.scene.control.DoubleField?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="15" styleClass="content-root">
+    <Label text="Solicitar Cartão" styleClass="title-label"/>
+    <TextField promptText="Valor de limite desejado" styleClass="input-field"/>
+    <TextField promptText="Renda mensal" styleClass="input-field"/>
+    <TextField promptText="Tempo no atual emprego (meses)" styleClass="input-field"/>
+    <Button text="Solicitar" styleClass="main-button"/>
+</VBox>

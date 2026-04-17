@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml"
+           fx:controller="org.jala.university.presentation.controller.LoginViewController"
+           styleClass="login-root">
+
+    <VBox spacing="20" alignment="CENTER">
+        <!-- Corrigido: ícone de usuário -->
+        <ImageView fx:id="profileImage"
+                   fitHeight="120"
+                   fitWidth="120"
+                   styleClass="profile-image">
+            <image>
+                <Image url="@/user-icon.png" />
+            </image>
+        </ImageView>
+
+        <Label text="Olá, Jurema" styleClass="welcome-label"/>
+        <Button fx:id="loginButton" text="Entrar" styleClass="main-button" onAction="#handleLoginAction"/>
+        <Hyperlink text="Entrar em outra conta" styleClass="login-link"/>
+        <Hyperlink text="Não tenho uma conta" onAction="#goToRegister" styleClass="login-link"/>
+
+    </VBox>
+
+</StackPane>

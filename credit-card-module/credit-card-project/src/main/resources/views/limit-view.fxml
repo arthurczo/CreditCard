@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="15" styleClass="content-root">
+    <Label text="Limite Atual: R$ 10.000" styleClass="title-label"/>
+    <Label text="Pontuação: 820" styleClass="info-label"/>
+</VBox>
