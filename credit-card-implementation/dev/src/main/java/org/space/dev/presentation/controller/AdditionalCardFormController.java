@@ -1,4 +1,4 @@
-package org.jala.university.presentation.controller;
+package arthurczo.dev.presentation.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.DatePicker;

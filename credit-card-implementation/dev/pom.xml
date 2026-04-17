@@ -125,7 +125,7 @@
         <artifactId>javafx-maven-plugin</artifactId>
         <version>${javafx.maven.plugin.version}</version>
         <configuration>
-          <mainClass>org.jala.university.presentation.MainView</mainClass>
+          <mainClass>arthurczo.dev.presentation.MainView</mainClass>
         </configuration>
       </plugin>
       <plugin>

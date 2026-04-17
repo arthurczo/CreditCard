@@ -1,4 +1,4 @@
-package org.jala.university.presentation.controller;
+package arthurczo.dev.presentation.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -6,14 +6,14 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import lombok.EqualsAndHashCode;
-import org.jala.university.application.service.CreditCardService;
-import org.jala.university.commons.presentation.BaseController;
-import org.jala.university.commons.presentation.ViewSwitcher;
-import org.jala.university.domain.entity.CreditCard;
-import org.jala.university.domain.repository.CreditCardRepository;
-import org.jala.university.infrastructure.persistance.CreditCardGenerator;
-import org.jala.university.infrastructure.persistance.CreditCardRepositoryMock;
-import org.jala.university.presentation.CreditCardView;
+import arthurczo.dev.application.service.CreditCardService;
+import arthurczo.dev.commons.presentation.BaseController;
+import arthurczo.dev.commons.presentation.ViewSwitcher;
+import arthurczo.dev.domain.entity.CreditCard;
+import arthurczo.dev.domain.repository.CreditCardRepository;
+import arthurczo.dev.infrastructure.persistance.CreditCardGenerator;
+import arthurczo.dev.infrastructure.persistance.CreditCardRepositoryMock;
+import arthurczo.dev.presentation.CreditCardView;
 import org.kordamp.ikonli.javafx.FontIcon;
 import org.kordamp.ikonli.fontawesome5.FontAwesomeSolid;
 import java.net.URL;

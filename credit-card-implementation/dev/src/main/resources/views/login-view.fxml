@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 
 <StackPane xmlns:fx="http://javafx.com/fxml"
-           fx:controller="org.jala.university.presentation.controller.LoginViewController"
+           fx:controller="arthurczo.dev.presentation.controller.LoginViewController"
            styleClass="login-root">
 
     <VBox spacing="20" alignment="CENTER">

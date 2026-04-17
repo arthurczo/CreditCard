@@ -1,11 +1,11 @@
-package org.jala.university.presentation.controller;
+package arthurczo.dev.presentation.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import org.jala.university.application.dto.CreditLimitRequestDto;
-import org.jala.university.domain.entity.CreditCard;
-import org.jala.university.infrastructure.persistance.CreditCardRepositoryMock;
+import arthurczo.dev.application.dto.CreditLimitRequestDto;
+import arthurczo.dev.domain.entity.CreditCard;
+import arthurczo.dev.infrastructure.persistance.CreditCardRepositoryMock;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;

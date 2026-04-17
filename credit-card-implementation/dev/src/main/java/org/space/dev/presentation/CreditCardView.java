@@ -1,7 +1,7 @@
-package org.jala.university.presentation;
+package arthurczo.dev.presentation;
 
 import lombok.Getter;
-import org.jala.university.commons.presentation.View;
+import arthurczo.dev.commons.presentation.View;
 
 @Getter
 public enum CreditCardView {

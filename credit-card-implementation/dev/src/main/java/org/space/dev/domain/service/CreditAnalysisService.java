@@ -1,4 +1,4 @@
-package org.jala.university.domain.service;
+package arthurczo.dev.domain.service;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

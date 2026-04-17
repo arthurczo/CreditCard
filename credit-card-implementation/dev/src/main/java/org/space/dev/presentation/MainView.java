@@ -1,4 +1,4 @@
-package org.jala.university.presentation;
+package arthurczo.dev.presentation;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

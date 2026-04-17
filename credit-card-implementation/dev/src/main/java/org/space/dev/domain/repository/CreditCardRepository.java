@@ -1,6 +1,6 @@
-package org.jala.university.domain.repository;
+package arthurczo.dev.domain.repository;
 
-import org.jala.university.domain.entity.CreditCard;
+import arthurczo.dev.domain.entity.CreditCard;
 import org.springframework.data.repository.Repository;
 
 import java.util.List;

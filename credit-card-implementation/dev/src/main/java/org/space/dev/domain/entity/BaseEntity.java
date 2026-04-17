@@ -1,4 +1,4 @@
-package org.jala.university.domain.entity;
+package arthurczo.dev.domain.entity;
 
 import jakarta.persistence.Id;
 import jakarta.persistence.GeneratedValue;

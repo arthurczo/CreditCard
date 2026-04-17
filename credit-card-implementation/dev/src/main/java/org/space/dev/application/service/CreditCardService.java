@@ -1,10 +1,10 @@
-package org.jala.university.application.service;
+package arthurczo.dev.application.service;
 
-import org.jala.university.application.dto.AdditionalCardRequestDto;
-import org.jala.university.application.dto.CreditCardEntityDto;
-import org.jala.university.application.dto.CreditLimitRequestDto;
-import org.jala.university.application.dto.CreditRequestResultDto;
-import org.jala.university.domain.entity.CreditCard;
+import arthurczo.dev.application.dto.AdditionalCardRequestDto;
+import arthurczo.dev.application.dto.CreditCardEntityDto;
+import arthurczo.dev.application.dto.CreditLimitRequestDto;
+import arthurczo.dev.application.dto.CreditRequestResultDto;
+import arthurczo.dev.domain.entity.CreditCard;
 
 import java.util.UUID;
 

@@ -5,7 +5,7 @@
 
 <?import com.sun.javafx.scene.control.DoubleField?>
 
-<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="15" styleClass="content-root" fx:controller="org.jala.university.presentation.controller.LimitIncreaseViewController">
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="15" styleClass="content-root" fx:controller="arthurczo.dev.presentation.controller.LimitIncreaseViewController">
     <Label text="Aumento de limite" styleClass="title-label"/>
     <Label fx:id="currentLimitLabel" text="Limite atual:" styleClass="info-label"/>
 

@@ -1,11 +1,11 @@
-package org.jala.university.presentation.controller;
+package arthurczo.dev.presentation.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import org.jala.university.domain.entity.CreditCard;
-import org.jala.university.domain.entity.CreditCard.Status;
-import org.jala.university.domain.repository.CreditCardRepository;
-import org.jala.university.infrastructure.persistance.CreditCardRepositoryMock;
+import arthurczo.dev.domain.entity.CreditCard;
+import arthurczo.dev.domain.entity.CreditCard.Status;
+import arthurczo.dev.domain.repository.CreditCardRepository;
+import arthurczo.dev.infrastructure.persistance.CreditCardRepositoryMock;
 import org.kordamp.ikonli.javafx.FontIcon;
 
 import java.util.Optional;

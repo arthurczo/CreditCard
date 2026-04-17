@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 
 <VBox xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.jala.university.presentation.controller.AdditionalCardListController"
+      fx:controller="arthurczo.dev.presentation.controller.AdditionalCardListController"
       spacing="15"
       alignment="CENTER"
       styleClass="content-root">

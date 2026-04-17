@@ -1,4 +1,4 @@
-package org.jala.university.application.dto;
+package arthurczo.dev.application.dto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

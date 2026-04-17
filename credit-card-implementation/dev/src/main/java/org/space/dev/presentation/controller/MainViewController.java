@@ -1,4 +1,4 @@
-package org.jala.university.presentation.controller;
+package arthurczo.dev.presentation.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -8,9 +8,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-import org.jala.university.domain.entity.CreditCard;
-import org.jala.university.domain.repository.CreditCardRepository;
-import org.jala.university.infrastructure.persistance.CreditCardRepositoryMock;
+import arthurczo.dev.domain.entity.CreditCard;
+import arthurczo.dev.domain.repository.CreditCardRepository;
+import arthurczo.dev.infrastructure.persistance.CreditCardRepositoryMock;
 
 import java.io.IOException;
 import java.util.Optional;

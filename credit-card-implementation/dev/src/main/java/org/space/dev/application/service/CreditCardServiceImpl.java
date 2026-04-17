@@ -1,14 +1,14 @@
-package org.jala.university.application.service;
+package arthurczo.dev.application.service;
 
-import org.jala.university.application.dto.CreditCardEntityDto;
-import org.jala.university.application.dto.CreditLimitRequestDto;
-import org.jala.university.application.dto.CreditRequestResultDto;
-import org.jala.university.application.dto.AdditionalCardRequestDto;
-import org.jala.university.application.mapper.CreditCardEntityMapper;
-import org.jala.university.domain.entity.CreditCard;
-import org.jala.university.domain.repository.CreditCardRepository;
-import org.jala.university.domain.service.CreditAnalysisService;
-import org.jala.university.infrastructure.persistance.CreditCardGenerator;
+import arthurczo.dev.application.dto.CreditCardEntityDto;
+import arthurczo.dev.application.dto.CreditLimitRequestDto;
+import arthurczo.dev.application.dto.CreditRequestResultDto;
+import arthurczo.dev.application.dto.AdditionalCardRequestDto;
+import arthurczo.dev.application.mapper.CreditCardEntityMapper;
+import arthurczo.dev.domain.entity.CreditCard;
+import arthurczo.dev.domain.repository.CreditCardRepository;
+import arthurczo.dev.domain.service.CreditAnalysisService;
+import arthurczo.dev.infrastructure.persistance.CreditCardGenerator;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

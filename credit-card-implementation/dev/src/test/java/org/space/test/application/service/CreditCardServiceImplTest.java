@@ -1,10 +1,10 @@
-package org.jala.university.application.service;
+package arthurczo.dev.application.service;
 
-import org.jala.university.application.dto.*;
-import org.jala.university.application.mapper.CreditCardEntityMapper;
-import org.jala.university.domain.entity.CreditCard;
-import org.jala.university.domain.repository.CreditCardRepository;
-import org.jala.university.domain.service.CreditAnalysisService;
+import arthurczo.dev.application.dto.*;
+import arthurczo.dev.application.mapper.CreditCardEntityMapper;
+import arthurczo.dev.domain.entity.CreditCard;
+import arthurczo.dev.domain.repository.CreditCardRepository;
+import arthurczo.dev.domain.service.CreditAnalysisService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;
@@ -12,7 +12,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import javax.persistence.EntityNotFoundException;
-import org.jala.university.domain.exceptions.BusinessRuleException;
+import arthurczo.dev.domain.exceptions.BusinessRuleException;
 
 import java.math.BigDecimal;
 import java.util.Optional;

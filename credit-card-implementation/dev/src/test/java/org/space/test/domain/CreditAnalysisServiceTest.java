@@ -1,6 +1,6 @@
-package org.jala.university.domain;
+package arthurczo.dev.domain;
 
-import org.jala.university.domain.service.CreditAnalysisService;
+import arthurczo.dev.domain.service.CreditAnalysisService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;

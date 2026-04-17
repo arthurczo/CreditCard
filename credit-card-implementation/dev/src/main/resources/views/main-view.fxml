@@ -6,7 +6,7 @@
 <?import javafx.geometry.Insets?>
 <?import org.kordamp.ikonli.javafx.FontIcon?>
 <BorderPane xmlns:fx="http://javafx.com/fxml"
-            fx:controller="org.jala.university.presentation.controller.MainViewController"
+            fx:controller="arthurczo.dev.presentation.controller.MainViewController"
             fx:id="rootPane"
             prefWidth="800" prefHeight="600"
             styleClass="border-pane">

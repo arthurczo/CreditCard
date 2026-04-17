@@ -1,4 +1,4 @@
-package org.jala.university.application.dto;
+package arthurczo.dev.application.dto;
 
 import lombok.Builder;//Permite usar a anotação @Builder, que ajuda a criar objetos de forma mais fácil e organizada.
 

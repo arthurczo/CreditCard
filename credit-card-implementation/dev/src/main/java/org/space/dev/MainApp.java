@@ -1,7 +1,7 @@
-package org.jala.university;
+package arthurczo.dev;
 
-import org.jala.university.domain.entity.CreditCard;
-import org.jala.university.domain.repository.CreditCardRepository;
+import arthurczo.dev.domain.entity.CreditCard;
+import arthurczo.dev.domain.repository.CreditCardRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

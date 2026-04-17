@@ -1,8 +1,8 @@
-package org.jala.university.domain.entity;
+package arthurczo.dev.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.jala.university.commons.domain.BaseEntity;
+import arthurczo.dev.commons.domain.BaseEntity;
 
 import java.math.BigDecimal;
 import java.util.UUID;

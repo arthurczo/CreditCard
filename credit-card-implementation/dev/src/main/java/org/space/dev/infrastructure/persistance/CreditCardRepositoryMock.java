@@ -1,7 +1,7 @@
-package org.jala.university.infrastructure.persistance;
+package arthurczo.dev.infrastructure.persistance;
 
-import org.jala.university.domain.entity.CreditCard;
-import org.jala.university.domain.repository.CreditCardRepository;
+import arthurczo.dev.domain.entity.CreditCard;
+import arthurczo.dev.domain.repository.CreditCardRepository;
 
 import java.math.BigDecimal;
 import java.util.*;

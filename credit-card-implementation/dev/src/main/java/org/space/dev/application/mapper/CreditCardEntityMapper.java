@@ -1,8 +1,8 @@
-package org.jala.university.application.mapper;
+package arthurczo.dev.application.mapper;
 
-import org.jala.university.application.dto.CreditCardEntityDto; //Importa a classe DTO
-import org.jala.university.domain.entity.CreditCard;// Importa a entidade CreditCard
-import org.jala.university.application.mapper.Mapper; //Importa a interface Mapper
+import arthurczo.dev.application.dto.CreditCardEntityDto; //Importa a classe DTO
+import arthurczo.dev.domain.entity.CreditCard;// Importa a entidade CreditCard
+import arthurczo.dev.application.mapper.Mapper; //Importa a interface Mapper
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;

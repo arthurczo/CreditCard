@@ -1,7 +1,7 @@
-package org.jala.university.infrastructure.persistance; // Alterado o package para algo mais apropriado
+package arthurczo.dev.infrastructure.persistance; // Alterado o package para algo mais apropriado
 
-import org.jala.university.domain.entity.CreditCard;
-import org.jala.university.domain.entity.CreditCard.Status;
+import arthurczo.dev.domain.entity.CreditCard;
+import arthurczo.dev.domain.entity.CreditCard.Status;
 
 import java.math.BigDecimal;
 import java.util.*;

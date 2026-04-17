@@ -1,10 +1,10 @@
-package org.jala.university.infrastructure.persistance;
+package arthurczo.dev.infrastructure.persistance;
 
 import jakarta.persistence.*;
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
-import org.jala.university.domain.entity.CreditCard;
-import org.jala.university.domain.repository.CreditCardRepository;
+import arthurczo.dev.domain.entity.CreditCard;
+import arthurczo.dev.domain.repository.CreditCardRepository;
 import org.springframework.context.annotation.Primary;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Repository;
